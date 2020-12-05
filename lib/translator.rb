@@ -15,7 +15,7 @@ def get_japanese_emoticon(path, emoticon)
   emoticons = load_library(path)
     emoticons.each do |meaning, language|
       language.each do |emote|
-        emote.each do |symobol|
+        emote.each do |symobol, value|
         binding.pry
       end
     end
