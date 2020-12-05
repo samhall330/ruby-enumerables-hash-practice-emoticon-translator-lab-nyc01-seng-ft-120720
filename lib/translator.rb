@@ -16,7 +16,8 @@ def get_japanese_emoticon(path, emoticon)
     emoticons.each do |meaning, language|
       language.each do |emote|
         emote.each do |lang|
-          if lang[1]
+          if emote[1] == emoticon
+            return language[:japanese]
         binding.pry
         end
       end
