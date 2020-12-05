@@ -17,6 +17,7 @@ def get_japanese_emoticon(path, emoticon)
     language.each do |emote|
     if emote[:value] == emoticon
       return emoticon
+    end
   end
   end
   end
