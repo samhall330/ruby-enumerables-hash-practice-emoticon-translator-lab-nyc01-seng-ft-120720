@@ -18,6 +18,7 @@ def get_japanese_emoticon(path, emoticon)
         emote.each do |lang|
           if lang[1]
         binding.pry
+        end
       end
     end
   end
