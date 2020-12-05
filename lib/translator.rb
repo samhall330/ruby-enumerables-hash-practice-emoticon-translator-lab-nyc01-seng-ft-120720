@@ -18,8 +18,8 @@ def get_japanese_emoticon(path, emoticon)
         binding.pry
     end
   end
-      
-      
+
+
 end
 
 def get_english_emoticon(path, emoticon)
